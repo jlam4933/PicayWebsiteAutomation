@@ -32,7 +32,7 @@ public class WebPagesTest {
     public static void main(String[] args) throws IOException, URISyntaxException {
 
         Xls_Reader reader = new Xls_Reader("src/main/java/Excel_Lib/picapagesforscript.xlsx");
-        String sheetname_ = "ProdURLS";
+        String sheetname_ = "QAEnv";
 
 
         WebDriverManager.chromedriver().setup();
